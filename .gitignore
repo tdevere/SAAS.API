@@ -1,0 +1,93 @@
+#Custom Ignore
+localdev/
+temp/
+scratch/
+
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build output
+bin/
+obj/
+out/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+!packages/repositories.config
+
+# Ignore .NET-related files
+project.lock.json
+project.assets.json
+*.pdb
+*.cache
+*.log
+*.pidb
+*.mdb
+
+# Ignore environment and config files
+.env
+*.config
+appsettings.*.json
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.sln.ide
+*.orig
+
+# Ignore Rider / JetBrains IDE specific files
+.idea/
+*.iml
+
+# Ignore ReSharper files
+_ReSharper.Caches/
+*.DotSettings.user
+
+# Ignore Docker-related files
+**/docker-compose.override.yml
+**/docker-compose.*.yml
+**/.dockerignore
+**/Dockerfile.*
+
+# Ignore log files
+*.log
+logs/
+**/logs/
+**/*.log
+
+# Ignore user secrets
+secrets.json
+
+# Ignore coverage files
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Ignore generated files from code analysis
+*.CodeAnalysisLog.xml
+*.ruleset
+
+# Ignore deployment artifacts
+publish/
+wwwroot/
+node_modules/
+dist/
+bower_components/
+
+# Ignore SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Ignore miscellaneous files
+Thumbs.db
+Desktop.ini
+.DS_Store
