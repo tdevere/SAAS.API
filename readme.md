@@ -40,7 +40,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/saas.api.git
+   git clone https://github.com/tdevere/SAAS.API/saas.api.git
    cd saas.api
    ```
 
@@ -69,7 +69,7 @@ The application is configured to run inside Docker containers using Docker Compo
 
 2. **Verify the Application is Running:**
 
-   Once the containers are up and running, the API should be accessible at `http://localhost:8080`.
+   Once the containers are up and running, the API should be accessible at `http://localhost:5000/swagger/index.htm`.
 
 ### Testing the API
 
@@ -77,8 +77,8 @@ To test the API, you can use tools like [Postman](https://www.postman.com/) or s
 
 **Retrieve Users:**
 
-- Open your browser and navigate to `http://localhost:8080/api/users`.
-- You should see a JSON response with the list of users.
+- Open your browser and navigate to `http://localhost:5000/swagger/index.html`.
+- Try calling the GET method for Users
 
 ## Development Guidelines
 
